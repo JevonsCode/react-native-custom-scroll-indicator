@@ -1,5 +1,5 @@
 {
-    "name": "scroll_bar",
+    "name": "react-native-scroll-indicator",
     "version": "0.0.1",
     "private": true,
     "scripts": {

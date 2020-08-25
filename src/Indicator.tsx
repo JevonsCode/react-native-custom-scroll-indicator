@@ -42,8 +42,6 @@ interface INativeEvent {
     }
 }
 
-const height = 5;
-
 export default class Indicator extends React.PureComponent<IIndicator> {
     leftValue = new Animated.Value(0);
 
@@ -52,7 +50,7 @@ export default class Indicator extends React.PureComponent<IIndicator> {
     defaultParams = {
         indicatorWidth: 20,
         indicatorHeight: 4,
-        indicatorBgWidth: 40,
+        indicatorBgWidth: 140,
         indicatorBgHeight: 8,
     };
 
