@@ -4,6 +4,11 @@
 >
 >RN 自定义滑动指示器（滚动条）
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/JevonsCode/react-native-custom-scroll-indicator/pulls) <a href="https://www.npmjs.com/package/react-native-custom-scroll-indicator">
+    <img src="https://badge.fury.io/js/react-native-custom-scroll-indicator.svg" alt="Current npm package version." />
+  </a>
+
+
 ## Installation / 安装
 
 ```bash
