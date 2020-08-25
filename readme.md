@@ -12,7 +12,13 @@ yarn add react-native-custom-scroll-indicator
 
 ## Example
 
+[codesandbox](https://codesandbox.io/s/naughty-cohen-je7lf?file=/src/App.js) RN-web 需要点击 **Open In New Windows** 然后用手机模式查看
 
+<img src="./docs/styles.gif" alt="react-native-custom-scroll-indicator" />
+<br />
+<img src="./docs/styles.gif" alt="react-native-custom-scroll-indicator" />
+<br />
+<img src="./docs/styles.gif" alt="react-native-custom-scroll-indicator" />
 
 
 ## Usage / 使用
