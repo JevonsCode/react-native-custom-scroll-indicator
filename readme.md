@@ -38,12 +38,7 @@ General / 基础使用
     }} scrollViewBoxStyle={{
         width: undefined
     }}>
-    <this.Item />
-    <this.Item />
-    <this.Item />
-    <this.Item />
-    <this.Item />
-    <this.Item />
+    <Content />
 </ScrollIndicator>
 ```
 
