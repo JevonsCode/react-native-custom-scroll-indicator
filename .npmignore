@@ -14,3 +14,7 @@ tsconfig.json
 *.lock
 
 readme.md
+
+docs/
+
+docs

@@ -1,6 +1,6 @@
 {
     "name": "react-native-custom-scroll-indicator",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "main": "src/index.tsx",
     "description": "react native custom indicator",
     "author": "Jevons",
