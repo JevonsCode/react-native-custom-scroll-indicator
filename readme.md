@@ -1,4 +1,4 @@
-# react-native-scroll-indicator
+# react-native-custom-scroll-indicator
 
 >React native custom scroll bar (indicator)
 >

@@ -1,0 +1,16 @@
+*.log
+
+tmp
+.fontcustom-manifest.json
+
+node_modules
+__tests__
+
+examples
+.*
+
+tsconfig.json
+
+*.lock
+
+*.md
