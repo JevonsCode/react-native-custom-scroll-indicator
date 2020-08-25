@@ -1,6 +1,6 @@
 {
     "name": "react-native-custom-scroll-indicator",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "main": "src/index.tsx",
     "description": "react native custom indicator",
     "author": "Jevons",
@@ -9,5 +9,8 @@
         "react native indicator",
         "react-native-custom-scroll-indicator"
     ],
-    "license": "ISC"
+    "license": "ISC",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    }
 }
