@@ -10,7 +10,8 @@
         "react-native-custom-scroll-indicator"
     ],
     "license": "ISC",
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JevonsCode/react-native-custom-scroll-indicator.git"
     }
 }

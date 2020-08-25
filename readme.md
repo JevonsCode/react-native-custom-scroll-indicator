@@ -16,9 +16,9 @@ yarn add react-native-custom-scroll-indicator
 
 <img src="./docs/styles.gif" alt="react-native-custom-scroll-indicator" />
 <br />
-<img src="./docs/styles.gif" alt="react-native-custom-scroll-indicator" />
+<img src="./docs/sp.gif" alt="react-native-custom-scroll-indicator" />
 <br />
-<img src="./docs/styles.gif" alt="react-native-custom-scroll-indicator" />
+<img src="./docs/cp.gif" alt="react-native-custom-scroll-indicator" />
 
 
 ## Usage / 使用
