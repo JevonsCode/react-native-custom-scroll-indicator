@@ -34,11 +34,15 @@ class App extends React.PureComponent {
         return (
             <View style={{ flex: 1, backgroundColor: "#eee" }}>
                 <ScrollView>
+                    <View style={{
+                        marginVertical: 60
+                    }}><Text style={{
+                        fontSize: 20
+                    }}>Examples:</Text></View>
                     <ScrollIndicator
                         indicatorBgPadding={6}
                         viewBoxStyle={{
                             alignItems: "center",
-                            marginTop: 60
                         }}
                         indicatorBackgroundStyle={{
                             height: 4,

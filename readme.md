@@ -6,17 +6,20 @@
 
 ## Installation / 安装
 
-
-
-
+```bash
+yarn add react-native-custom-scroll-indicator
+```
 
 ## Example
 
 
 
 
-
 ## Usage / 使用
+
+```tsx
+import ScrollIndicator from "react-native-custom-scroll-indicator";
+```
 
 General / 基础使用
 

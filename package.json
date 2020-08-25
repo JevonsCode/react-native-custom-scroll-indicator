@@ -1,12 +1,13 @@
 {
     "name": "react-native-custom-scroll-indicator",
-    "version": "1.0.2",
+    "version": "1.0.5",
     "main": "src/index.tsx",
     "description": "react native custom indicator",
     "author": "Jevons",
     "keywords": [
         "react native",
-        "react native indicator"
+        "react native indicator",
+        "react-native-custom-scroll-indicator"
     ],
     "license": "ISC"
 }
