@@ -13,4 +13,4 @@ tsconfig.json
 
 *.lock
 
-*.md
+readme.md
