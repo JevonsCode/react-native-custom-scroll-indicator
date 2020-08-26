@@ -88,7 +88,7 @@ Advanced / 进阶用法
 | indicatorBackgroundStyle | Indicator background style / 指示器的背景样式 | StyleProp\<ViewStyle\> | width：140; height: 8; * |
 |      indicatorStyle      | Indicator style / 指示器的样式 | StyleProp\<ViewStyle\> | width：20; height: 4; |
 |    indicatorBoxStyle     | Indicator outline View style / 指示器外 View 的样式 | StyleProp\<ViewStyle\> | * |
-|  alwaysIndicatorBounce   | Always turn on the rebound effect of the indicator / 总是开启指示器的回弹效果 | boolean | false |
+|  alwaysIndicatorBounce(iOS)   | Always turn on the rebound effect of the indicator / 总是开启指示器的回弹效果 | boolean | false |
 | animatedScrollViewParams | Animated.ScrollView params / Animated.ScrollView 的原生参数 | ScrollViewProps |         |
 | onScrollListener | Callback when sliding / 滑动时的回调 | (*e*: NativeSyntheticEvent\<unknown\>) =\> void |         |
 
