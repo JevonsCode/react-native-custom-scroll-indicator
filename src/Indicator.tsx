@@ -2,34 +2,53 @@ import React from "react";
 
 import {
     View,
-    ScrollView,
     Animated,
     StyleProp,
     ViewStyle,
     NativeSyntheticEvent,
     ScrollViewProps
-} from 'react-native';
+} from "react-native";
 
 export interface IIndicator {
-    // 整个组件的 View Box 样式
+    /**
+     * 整个组件的 View Box 样式
+     */
     viewBoxStyle?: StyleProp<ViewStyle>;
-    // 横向滑动 ScrollView 外的 View 的样式
+    /**
+     * 横向滑动 ScrollView 外的 View 的样式
+     */
     scrollViewBoxStyle?: StyleProp<ViewStyle>;
-    // 横向滑动的 ScrollView 样式
+    /**
+     * 横向滑动的 ScrollView 样式
+     */
     scrollViewStyle?: StyleProp<ViewStyle>;
-    // 指示器背景增加的长度（多出来的长度）
+    /**
+     * 指示器背景增加的长度（多出来的长度）
+     */
     indicatorBgPadding?: number;
-    // 指示器的背景样式 （背景宽度，默认加上指示器宽度）
+    /**
+     * 指示器的背景样式 （背景宽度，默认加上指示器宽度）
+     */
     indicatorBackgroundStyle?: StyleProp<ViewStyle>;
-    // 指示器样式
+    /**
+     * 指示器样式
+     */
     indicatorStyle?: StyleProp<ViewStyle>;
-    // 指示器外的 View 的样式
+    /**
+     * 指示器外的 View 的样式
+     */
     indicatorBoxStyle?: StyleProp<ViewStyle>;
-    // 滑动时的回调
+    /**
+     * 滑动时的回调
+     */
     onScrollListener?: (e: NativeSyntheticEvent<unknown>) => void;
-    // 总是开启指示器的回弹效果
+    /**
+     * 总是开启指示器的回弹效果
+     */
     alwaysIndicatorBounce?: boolean;
-    // Animated.ScrollView 的原生参数
+    /**
+     * Animated.ScrollView 的原生参数
+     */
     animatedScrollViewParams?: ScrollViewProps;
 }
 
@@ -42,7 +61,11 @@ interface INativeEvent {
     }
 }
 
-export default class Indicator extends React.PureComponent<IIndicator> {
+export default class Indicator extends React.PureComponent<IIndicator, {leftValue: number}> {
+    constructor(props:IIndicator) {
+        super(props);
+    }
+
     leftValue = new Animated.Value(0);
 
     bgWidth = 1;
